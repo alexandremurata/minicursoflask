@@ -8,7 +8,7 @@ from controller.store import StoreController, StoreListController
 
 app = Flask(__name__)
 
-URL = 'postgres://elnrwwmposjwkx:99e87646a577d4f21c36b7d8bec8a6a0bfde8b5218d5e27d9d51c589569c52e1@ec2-23-21-201-255.compute-1.amazonaws.com:5432/d64aoral2b3js8'
+URL = 'postgres://dmqowcurvqleyf:5200c66b3bec9ca0e620804ba61a35047b3cf374cfaff589ca4ea199e1c807d4@ec2-54-83-11-247.compute-1.amazonaws.com:5432/da9o2ioierqh4i'
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', URL)
 app.config['SQLALCHEMY_TRACK_MODIFICATONS'] = False
 api = Api(app)
